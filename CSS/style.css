@@ -1,0 +1,195 @@
+
+.img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+.container{
+    position: relative;
+}
+.black-box {
+    position: relative;
+    z-index: 1;
+    background-color: orangered;
+    border: 2px solid black;
+    height: 100px;
+    width: 300px;
+    margin: 30px;
+}
+.gray-box {
+    position: absolute;
+    z-index: 2;
+    background-color: lightgray;
+    height: 60px;
+    width: 250px;
+    top: 50px;
+    left: 50px;
+}
+.green-box {
+    position: absolute;
+    z-index: 2;
+    background-color: lightgreen;
+    width: 200px;
+    left: 220px;
+    top: -15px;
+    height: 100px;
+}
+
+
+  
+.guy {
+    background-color: coral;
+  width: 150px;
+  height: 75px;
+  border: 1px solid;
+  overflow: scroll;
+}
+
+#overflowTest {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    width: 150px;
+    height: 100px;
+    overflow: scroll;
+    border-color: #CCC;
+}
+
+img.p1 {
+    padding: 3px;
+    margin: 5px;
+    float: right;
+}
+
+img.p2 {
+    float: left;
+    padding: 3px;
+    margin: 5px;
+}
+.xxx {
+    border: 2px solid gray;
+}
+
+.jah {
+    float: left;
+    padding: 15px; 
+}
+.div1 {
+    background-color: red;
+}
+.div2 {
+    background-color: green;
+}
+.div3 {
+    background-color: yellow;
+}
+.div4 {
+    background-color: blue;
+}
+
+.alex {
+    float: left;
+    padding: 10px;
+    border: 3px solid #73AD21;
+}
+.div22 {
+    padding: 10px;
+    border: 2px solid red;
+}
+.div33 {
+    float: right;
+    padding: 10px;
+    border: 2px solid green;
+}
+.div44 {
+    padding: 10px;
+    border: 2px solid red;
+}
+.faz {
+    border: 3px solid #4CAF50;
+    padding: 5px;
+  }
+  
+  img.img1 {
+    float: right;
+  }
+  
+  img.img2 {
+    float: right;
+  }
+  
+  .clearfix {
+    overflow: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

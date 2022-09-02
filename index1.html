@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+    <h1>This is a heading</h1>
+    <div class="img"><img src="images/img_tree2.png">
+    </div>
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<h1>Z-index Example</h1>
+
+<p>An element with greater stack order is always above an element with a lower stack order.</p>
+
+<div class="container">
+  <div class="black-box">Black box (z-index: 1)</div>
+  <div class="gray-box">Gray box (z-index: 3)</div>
+  <div class="green-box">Green box (z-index: 2)</div>
+</div>
+
+
+<br><br><br><br><br>
+  
+
+<h2>Overflow: visible</h2>
+
+<p>By default, the overflow is visible, meaning that it is not clipped and it renders outside the element's box:</p>
+
+<div class="guy">You can use the overflow property when you want to have better control of the layout. The overflow property specifies what happens if content overflows an element's box.</div>
+
+  
+
+<br><br><br><br><br>
+
+<h2>CSS Overflow</h2>
+
+<p>The overflow property controls what happens to content that is too big to fit into an area.</p>
+
+
+<div id="overflowTest">This text is really long and the height of its container is only 100 pixels. Therefore, a scrollbar is added to help the reader to scroll the content. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.</div>
+
+ 
+<br><br><br><br><br>
+
+
+<h2>Float Right</h2>
+
+<p>In this example, the image will 
+  float to the right in the paragraph, 
+  and the text in the paragraph will 
+  wrap around the image.</p>
+  <div>
+  <p class="xxx">
+    <img class="p1" src="images/apple.jpg" alt="Pineapple">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+  Phasellus imperdiet, nulla et dictum interdum, 
+  nisi lorem egestas odio, vitae scelerisque enim 
+  ligula venenatis dolor. Maecenas nisl est, 
+  ultrices nec congue eget, auctor vitae massa. 
+  Fusce luctus vestibulum augue ut aliquet. 
+  Mauris ante ligula, facilisis sed ornare eu, 
+  lobortis in odio. Praesent convallis urna a 
+  lacus interdum ut hendrerit risus congue. 
+  Nunc sagittis dictum nisi, sed ullamcorper ipsum 
+  dignissim ac. In at libero sed nunc venenatis 
+  imperdiet sed ornare turpis. Donec vitae dui 
+  eget tellus gravida venenatis. Integer fringilla 
+  congue eros non fermentum. Sed dapibus pulvinar 
+  nibh tempor porta. Cras ac leo purus. Mauris quis 
+  diam velit.</p>
+  </div>
+<br>
+
+<h2>Float left</h2>
+
+<p>In this example, the image will float to the left in the paragraph, and the text in the paragraph will wrap around the image.</p>
+<div>
+  <p class="xxx">
+  <img class="p2" src="images/apple.jpg" alt="Pineapple">
+  Lorem ipsum dolor sit amet, consectetur adipiscing 
+  elit. Phasellus imperdiet, nulla et dictum interdum, 
+  nisi lorem egestas odio, vitae scelerisque enim 
+  ligula venenatis dolor. Maecenas nisl est, ultrices 
+  nec congue eget, auctor vitae massa. Fusce luctus 
+  vestibulum augue ut aliquet. Mauris ante ligula, 
+  facilisis sed ornare eu, lobortis in odio. Praesent 
+  convallis urna a lacus interdum ut hendrerit risus 
+  congue. Nunc sagittis dictum nisi, sed ullamcorper 
+  ipsum dignissim ac. In at libero sed nunc venenatis 
+  imperdiet sed ornare turpis. Donec vitae dui eget 
+  tellus gravida venenatis. Integer fringilla congue 
+  eros non fermentum. Sed dapibus pulvinar nibh tempor
+   porta. Cras ac leo purus. Mauris quis diam velit.</p>
+</div>
+
+
+
+<br>
+
+
+
+  <h2>Float Next To Each Other</h2>
+  <br>
+  <p1>In this example, the three divs will float next to each other.</p1>
+  <br><br><br>
+  <div class="jah">
+  <div class="div1 jah">RED</div>
+  <div class="div2 jah">GREEN</div>
+  <div class="div3 jah">YELLOW</div>
+  <div class="div4 jah">BLUE</div>
+</div>
+
+
+<br>
+<br><br><br>
+<h2>Without clear</h2>
+<div class="alex">div1</div>
+<div class="div22">div2 - Notice that div2 is after 
+  div1 in the HTML code. However, since div1 floats to 
+  the left, the text in div2 flows around div1.</div>
+<br><br>
+
+<h2>With clear</h2>
+<div class="div33">div3</div>
+<div class="div44">div4 - Here, clear: left; moves div4 
+  down below the floating div3. The value "left" 
+  clears elements floated to the left. 
+  You can also clear "right" and "both".</div>
+
+
+  <br><br>
+
+  <h2>Without Clearfix</h2>
+
+<p>This image is floated to the right. It is also taller than the element containing it, so it overflows outside of its container:</p>
+
+<div class="faz">
+  <img class="img1" src="images/apple.jpg" alt="Pineapple" width="170" height="170">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet...
+</div>
+
+
+
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+<h2 style="clear:right">With Clearfix</h2>
+<p>We can fix this by adding a clearfix class with 
+  overflow: auto; to the containing element:</p>
+
+<div class="clearfix faz">
+  <img class="img2" src="images/apple.jpg" alt="Pineapple" width="170" height="170">
+  Lorem ipsum dolor sit amet, consectetur adipiscing 
+  elit. Phasellus imperdiet...
+</div>
+
+
+</body>
+</html>
